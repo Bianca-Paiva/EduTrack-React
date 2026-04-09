@@ -19,3 +19,14 @@ nav {
     text-decoration: none;
     letter-spacing: -1px;
 }
+
+.list-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--neutral-color);
+}

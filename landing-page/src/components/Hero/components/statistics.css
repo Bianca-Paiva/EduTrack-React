@@ -1,0 +1,9 @@
+.stats {
+    text-align: center; /* Centraliza o texto dentro do elemento com a classe "stats" */
+}
+
+.stats h2 {
+    font-size: 2rem;
+    font-weight: 700; 
+    color: var(--black-color); 
+}
