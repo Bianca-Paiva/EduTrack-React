@@ -16,16 +16,59 @@
     justify-content: center;
 }
 
+/* =========== Coluna 1 =========== */
 .coluna1 {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 50%;
 }
 
+.tagSobre {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 600; /* bold */
+    letter-spacing: 2.4px;
+}
+
+.coluna1 h2 {
+    font-size: 3rem;
+    color: var(--black-color);
+    line-height: 3rem;
+}
+
+
+/* =========== Coluna 2 =========== */
 .coluna2 {
+    padding: 40px;
     background-color: var(--white-color);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
+    gap: 32px;
+    border-radius: 8px;
 }
 
+.coluna2 h3 {
+    font-size: 1.5rem;
+    color: var(--black-color);
+}
+
+.item-pilar {
+    display: flex;
+    gap: 16px;
+}
+
+.titulo-pilar {
+    font-size: 1rem;
+    color: var(--black-color);
+    font-weight: 600; /* bold */
+    line-height: 24px;
+}
+
+.descricao-pilar {
+    font-size: 0.875rem;
+    line-height: 20px;
+}
