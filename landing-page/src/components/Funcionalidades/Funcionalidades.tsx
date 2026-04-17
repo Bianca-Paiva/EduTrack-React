@@ -5,7 +5,6 @@ import './funcionalidades.css';
 function Funcionalidades() {
     return (
         <section className="funcionalidades">
-           
 
                 <div className='superiorFuncionalidades'>
                     <h4>Por que escolher a EduTrack?</h4>
